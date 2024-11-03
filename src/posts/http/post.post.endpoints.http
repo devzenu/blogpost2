@@ -1,0 +1,14 @@
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "title": "What's new with NestJS",
+  "postType": "post",
+  "slug": "new-with-nest-js",
+  "status": "draft",
+  "content": "post-content",
+  "featuredImageUrl": "http://localhost.com/images/image1.jpg",
+  "publishOn": "2024-03-16T07:46:32+0000",
+  "author": "6727088d7b261fc5d5cfa84e",
+  "tags":["6727371e7fc99ac2c6cdea03","6727376e7fc99ac2c6cdea05","672737aa7fc99ac2c6cdea07"]
+}
